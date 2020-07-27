@@ -1,0 +1,171 @@
+{
+  "categorias": [
+    {
+      "titulo": "Swing & Big band",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Clássicos do Swing"
+      },
+      "videos": [
+        {
+          "titulo": "O que é 'Jazz'? #music #jazz",
+          "url": "https://www.youtube.com/watch?v=BMgKXbtQwoo"
+        },
+        {
+          "titulo": "Billie Holiday - Swing, brother, swing",
+          "url": "https://www.youtube.com/watch?v=ntOfusbfbjU"
+        },
+        {
+          "titulo": "Bix Beiderbecke - Rhythm King (1928)",
+          "url": "https://www.youtube.com/watch?v=pob7zgAWeMI"
+        },
+        {
+          "titulo": "Bix Beiderbecke - There'll Come A Time (1928)",
+          "url": "https://www.youtube.com/watch?v=7pj1ZEKz4Cw"
+        },
+        {
+          "titulo": "Louis Armstrong - Swinging On Nothing (1942)",
+          "url": "https://www.youtube.com/watch?v=YvHI2V1nmoQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Bebop & Hardbop",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Clássicos de Bebop e Hardbop"
+      },
+      "videos": [
+        {
+          "titulo": "Dizzy Gillespie - Bebop",
+          "url": "https://www.youtube.com/watch?v=09BB1pci8_o"
+        },
+        {
+          "titulo": "Charlie Parker - Bebop",
+          "url": "https://www.youtube.com/watch?v=YZYaSkhRhoE"
+        },
+        {
+          "titulo": "Dizzy Gillespie feat. Charlie Parker - A Night In Tunisia",
+          "url": "https://www.youtube.com/watch?v=gfLVVHxk4IM"
+        },
+        {
+          "titulo": "Bud Powell - The Wail",
+          "url": "https://www.youtube.com/watch?v=oDXn9O-AiB4"
+        },
+        {
+          "titulo": "Hank Jones Explaining Bebop",
+          "url": "https://www.youtube.com/watch?v=6VT_yVNx0cQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Cool & Soul Jazz",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Clássicos do Cool e Soul Jazz"
+      },
+      "videos": [
+        {
+          "titulo": "Miles David - So What",
+          "url": "https://www.youtube.com/watch?v=zqNTltOGh5c"
+        },
+        {
+          "titulo": "Chet Baker - Almost blue",
+          "url": "https://www.youtube.com/watch?v=z4PKzz81m5c"
+        },
+        {
+          "titulo": "Bill Evans - Sunday at the Village Vanguard (1961 Album)",
+          "url": "https://www.youtube.com/watch?v=gZ_rZZusz90"
+        },
+        {
+          "titulo": "Bill Evans - Cool Jazz Piano",
+          "url": "https://www.youtube.com/watch?v=tLm-k05j_V4"
+        }
+      ]
+    },
+    {
+      "titulo": "Free Jazz",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Clássicos do Free Jazz"
+      },
+      "videos": [
+        {
+          "titulo": "Ornette Coleman - Free Jazz",
+          "url": "https://www.youtube.com/watch?v=8bRTFr0ytA8"
+        },
+        {
+          "titulo": "John Coltrane - Ascension",
+          "url": "https://www.youtube.com/watch?v=-81AEUqHPzU"
+        },
+        {
+          "titulo": "Akira Sakata Trio - Pochi (Full Album, 1980, Free Jazz, Japan)",
+          "url": "https://www.youtube.com/watch?v=ZzSlp9vRq58"
+        },
+        {
+          "titulo": "Chick Corea Elektric Band (Brazil, 1987)",
+          "url": "https://www.youtube.com/watch?v=ei_3G1t2o90"
+        }
+      ]
+    },
+    {
+      "titulo": "Fusion",
+      "cor": "red",
+      "link_extra": {
+        "text": "Exemplos de Fusion"
+      },
+      "videos": [
+        {
+          "titulo": "Herbie Hancock - Head Hunters (1973)",
+          "url": "https://www.youtube.com/watch?v=3m3qOD-hhrQ"
+        },
+        {
+          "titulo": "Miles Davis - Big Fun (1974)",
+          "url": "https://www.youtube.com/watch?v=cFOLt9kSbTw"
+        },
+        {
+          "titulo": "Grover Washington Jr. - Mister Magic (1975)",
+          "url": "https://www.youtube.com/watch?v=EmucX5avn8M"
+        },
+        {
+          "titulo": "Demon Fuzz - Afreaka! (1970)",
+          "url": "https://www.youtube.com/watch?v=ayDDa0SnUuc&t=201s"
+        },
+        {
+          "titulo": "Herbie Hancock - Sextant (1973)",
+          "url": "https://www.youtube.com/watch?v=6Mz5rR0y0fM"
+        }
+      ]
+    },
+    {
+      "titulo": "Latin Jazz",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Exemplos de Latin Jazz"
+      },
+      "videos": [
+        {
+          "titulo": "Tito Puente - Latin Jazz",
+          "url": "https://www.youtube.com/watch?v=MpJMgfVOgRQ"
+        },
+        {
+          "titulo": "Poncho Sanchez and His Latin Jazz Band  - Ven Pa Bailar (Live at Java Jazz Festival - 2012)",
+          "url": "https://www.youtube.com/watch?v=pbykr9-BTgQ"
+        },
+        {
+          "titulo": "Stan Getz & Charlie Byrd - Jazz Samba (1962)",
+          "url": "https://www.youtube.com/watch?v=w7VGpKdX3f8"
+        },
+        {
+          "titulo": "Eddie Palmieri (Estival Jazz Lugano - 2013)",
+          "url": "https://www.youtube.com/watch?v=y6CVzxavttY"
+        },
+        {
+          "titulo": "What Is Latin Jazz?",
+          "url": "https://www.youtube.com/watch?v=wCGxg60d0U8"
+        }
+      ]
+    }
+  ]
+}
