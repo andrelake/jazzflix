@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import ButtonCad from '../../../components/ButtonCad';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -24,6 +24,15 @@ function CadastroCategoria() {
   function handleOnChange(event) {
     setValue(event.target.getAttribute('name'), event.target.value);
   }
+
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categorias';
+
+    fetch(URL).then(async (res) => {
+      const resposta = await res.json();
+      setCategorias([...resposta]);
+    });
+  }, []);
 
   return (
     <PageDefault>
@@ -58,12 +67,14 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleOnChange}
         />
-        <ButtonCad></ButtonCad>
+        <Button>Cadastrar</Button>
       </form>
 
+      {categorias.length === 0 && <div>Loading...</div>}
+
       <ul>
-        {categorias.map((categoria, index) => {
-          return <li key={`${categoria}${index}`}>{categoria.nome}</li>;
+        {categorias.map((categoria) => {
+          return <li key={`${categoria.nome}`}>{categoria.nome}</li>;
         })}
       </ul>
       <Link to="/">Ir para home</Link>
