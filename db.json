@@ -2,15 +2,221 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Blues",
-      "descricao": "Clássicos do blues",
-      "cor": "#cbd1ff"
+      "titulo": "Swing & BigBand",
+      "cor": "#cbd1ff",
+      "link_extra": {
+        "text": "Clássicos do Swing & BigBand",
+        "url": "https://www.youtube.com/watch?v=ntOfusbfbjU"
+      }
     },
     {
       "id": 2,
-      "nome": "Swing & BigBand",
-      "descricao": "Clássicos do Swing & BigBand",
-      "cor": "#cbd1ff"
+      "titulo": "Bebop & Hardbop",
+      "cor": "#cbd1ff",
+      "link_extra": {
+        "text": "Clássicos do Bebop & Hardbop",
+        "url": "https://www.youtube.com/watch?v=09BB1pci8_o"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Cool & Soul Jazz",
+      "cor": "#cbd1ff",
+      "link_extra": {
+        "text": "Clássicos do Cool & Soul Jazz",
+        "url": "https://www.youtube.com/watch?v=zqNTltOGh5c"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Freejazz",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Clássicos do Freejazz",
+        "url": "https://www.youtube.com/watch?v=8bRTFr0ytA8"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Fusion",
+      "cor": "#cbd1ff",
+      "link_extra": {
+        "text": "Clássicos do Fusion",
+        "url": "https://www.youtube.com/watch?v=3m3qOD-hhrQ"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Latin",
+      "cor": "#cbd1ff",
+      "link_extra": {
+        "text": "Clássicos do Latin Jazz",
+        "url": "https://www.youtube.com/watch?v=MpJMgfVOgRQ"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O que é 'Jazz'? #music #jazz",
+      "url": "https://www.youtube.com/watch?v=BMgKXbtQwoo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Billie Holiday - Swing, brother, swing",
+      "url": "https://www.youtube.com/watch?v=ntOfusbfbjU"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Bix Beiderbecke - There'll Come A Time",
+      "url": "https://www.youtube.com/watch?v=7pj1ZEKz4Cw"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Louis Armstrong - Swinging On Nothing",
+      "url": "https://www.youtube.com/watch?v=YvHI2V1nmoQ"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "Dizzy Gillespie - Bebop",
+      "url": "https://www.youtube.com/watch?v=09BB1pci8_o"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Charlie Parker - Bebop",
+      "url": "https://www.youtube.com/watch?v=YZYaSkhRhoE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Dizzy Gillespie feat. Charlie Parker - A Night In Tunisia",
+      "url": "https://www.youtube.com/watch?v=gfLVVHxk4IM"
+    },
+    {
+      "id": 8,
+      "categoriaId": 3,
+      "titulo": "Miles Davis - So What",
+      "url": "https://www.youtube.com/watch?v=zqNTltOGh5c"
+    },
+    {
+      "id": 9,
+      "categoriaId": 3,
+      "titulo": "Chet Baker - Almost Blue",
+      "url": "https://www.youtube.com/watch?v=z4PKzz81m5c"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "Bill Evans - Sunday at the Village Vanguard",
+      "url": "https://www.youtube.com/watch?v=gZ_rZZusz90"
+    },
+    {
+      "id": 11,
+      "categoriaId": 4,
+      "titulo": "Ornette Coleman - Free Jazz",
+      "url": "https://www.youtube.com/watch?v=8bRTFr0ytA8"
+    },
+    {
+      "id": 12,
+      "categoriaId": 4,
+      "titulo": "John Coltrane - Ascension",
+      "url": "https://www.youtube.com/watch?v=-81AEUqHPzU"
+    },
+    {
+      "id": 13,
+      "categoriaId": 4,
+      "titulo": "Chick Corea Elektric Band - Free Jazz 1987 Brazil",
+      "url": "https://www.youtube.com/watch?v=ei_3G1t2o90"
+    },
+    {
+      "id": 14,
+      "categoriaId": 5,
+      "titulo": "Herbie Hancock - Head Hunters",
+      "url": "https://www.youtube.com/watch?v=3m3qOD-hhrQ"
+    },
+    {
+      "id": 15,
+      "categoriaId": 5,
+      "titulo": "Miles Davis - Big Fun",
+      "url": "https://www.youtube.com/watch?v=cFOLt9kSbTw"
+    },
+    {
+      "id": 16,
+      "categoriaId": 5,
+      "titulo": "Demon Fuzz - Afreaka!",
+      "url": "https://www.youtube.com/watch?v=ayDDa0SnUuc&t=201s"
+    },
+    {
+      "id": 17,
+      "categoriaId": 6,
+      "titulo": "Tito Puente - Latin Jazz",
+      "url": "https://www.youtube.com/watch?v=MpJMgfVOgRQ"
+    },
+    {
+      "id": 18,
+      "categoriaId": 6,
+      "titulo": "Poncho Sanchez and His Latin Jazz Band - Ven Pa Bailar",
+      "url": "https://www.youtube.com/watch?v=pbykr9-BTgQ"
+    },
+    {
+      "id": 19,
+      "categoriaId": 6,
+      "titulo": "Stan Getz & Charlie Byrd - Jazz Samba",
+      "url": "https://www.youtube.com/watch?v=w7VGpKdX3f8"
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 20
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 21
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 22
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 23
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 24
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 25
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 6,
+      "id": 26
+    },
+    {
+      "titulo": "video padrao",
+      "url": "https://www.youtube.com/watch?v=nDkd9bVhmek",
+      "categoriaId": 1,
+      "id": 27
     }
   ]
 }
